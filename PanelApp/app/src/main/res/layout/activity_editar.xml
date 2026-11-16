@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="30dp"
+        android:gravity="center">
+
+        <!-- TÍTULO  -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="EDITAR RECORDATORIO"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:layout_marginBottom="20dp"/>
+
+        <!-- INPUT NOMBRE  -->
+        <EditText
+            android:id="@+id/inputEditarNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nombre"
+            android:textColor="#000000"
+            android:textColorHint="#888888"
+            android:padding="16dp"
+            android:background="@android:drawable/edit_text"
+            android:textSize="16sp"
+            android:layout_marginBottom="15dp"/>
+
+        <!-- INPUT DESCRIPCIÓN  -->
+        <EditText
+            android:id="@+id/inputEditarDescripcion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Descripción"
+            android:textColor="#000000"
+            android:textColorHint="#888888"
+            android:padding="16dp"
+            android:background="@android:drawable/edit_text"
+            android:textSize="16sp"
+            android:layout_marginBottom="15dp"/>
+
+        <!-- BOTÓN Y TEXTO PARA LA FECHA Y HORA -->
+        <Button
+            android:id="@+id/btnEditarFecha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Seleccionar Fecha y Hora"
+            android:textAllCaps="false"
+            android:layout_marginBottom="5dp"/>
+
+        <TextView
+            android:id="@+id/txtEditarFecha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fecha y Hora"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:layout_marginBottom="15dp"/>
+
+        <!-- BOTÓN Y TEXTO PARA LA UBICACIÓN -->
+        <Button
+            android:id="@+id/btnEditarUbicacion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Actualizar Ubicación"
+            android:textAllCaps="false"
+            android:layout_marginBottom="5dp"/>
+
+        <TextView
+            android:id="@+id/txtEditarUbicacion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sin ubicación"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:layout_marginBottom="25dp"/>
+
+        <!-- BOTÓN GUARDAR -->
+        <Button
+            android:id="@+id/btnActualizar"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Actualizar Recordatorio"
+            android:textSize="18sp"
+            android:textAllCaps="false"
+            android:layout_marginBottom="15dp"/>
+
+        <TextView
+            android:id="@+id/mensajeAlertaEditar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="#FF5252"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:textStyle="bold"/>
+    </LinearLayout>
+</ScrollView>

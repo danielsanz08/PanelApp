@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:gravity="center"
+    android:background="#F5F5F5">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Panel App"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="#333333"
+        android:gravity="center"
+        android:layout_marginBottom="40dp" />
+
+    <Button
+        android:id="@+id/btnMenuCrear"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Crear Recordatorio"
+        android:textSize="18sp"
+        android:layout_marginBottom="20dp" />
+
+    <Button
+        android:id="@+id/btnMenuVer"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Ver Recordatorios"
+        android:textSize="18sp"
+        android:layout_marginBottom="20dp" />
+
+    <Button
+        android:id="@+id/btnMenuIntents"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Pruebas de Intents"
+        android:textSize="18sp" />
+
+</LinearLayout>
